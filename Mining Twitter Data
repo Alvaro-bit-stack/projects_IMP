@@ -1,1 +1,17 @@
-print("Alvaro likes Elliot Smith")
+import tweepy
+from tweepy import OAuthHandler
+ 
+consumer_key = '2T0vcBZLKxneCLyby2Fr2G1uF'
+consumer_secret = 'QFOCaa5JVhLzVI79mMC9MS3k4O6IUUFSM7lVFmlD2whyZ9srAt'
+access_token = '1872422699160506368-H1i5SmeqLW9dNQ2in68jpCRg1YQRFA'
+access_secret = 'TZm38baOL1WQff4LedX4UMQi5mytwAjo05Pbx063OsBZV'
+ 
+auth = OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_secret)
+ 
+api = tweepy.API(auth)
+
+
+# If the authentication was successful, this should print the
+# screen name / username of the account
+print(api.verify_credentials().screen_name)
