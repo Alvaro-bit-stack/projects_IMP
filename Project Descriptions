@@ -3,3 +3,4 @@
 will be for projects in progress 
 #Racing project: Python with Turtle Graphics was used to create an interactive turtle racing game. The program includes object-oriented programming, control flow, modular functions, event handling for keyboard inputs, and randomization for visuals.
 #Scrabble project:  Python  was used to create a Scrabble scoring system, employing recursion for calculating letter and word scores, higher-order functions like map and filter for processing lists, and helper functions to verify valid words from a given rack of letters, ultimately determining the highest-scoring word.
+#ASL Language detector: used a previously created computer vision model and based on the old model created an ASL language detector that detects alphabetic letters based on their related hand sign which was done through training the previous model and also implemented the ability to create words with the hand signed letters.  
