@@ -558,7 +558,9 @@ def draw_info(image, fps, mode, number):
                        cv.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1,
                        cv.LINE_AA)
     return image
-
+def instructions():#/
+    print("Reference ASL alphabetical letters to use the model\nIn order to delete saved letter hold your hand to camera like giving it a high five")#/
 
 if __name__ == '__main__':
+    instructions()#/
     main()
